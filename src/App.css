@@ -2,14 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+  height: 100vh;
+  background-image: url('./starry\ night.png'); 
+  background-size: cover;
+  background-position: center;
 }
 
 .Box {
   border: 2px solid #ccc;
   padding: 20px;
   text-align: center;
-  width: 400px; 
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8); 
 }
 
 .Button {
@@ -17,7 +21,7 @@
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  background-color: plum; 
+  background-color: lightpink; 
   color: black; 
   border: none;
   border-radius: 5px;
